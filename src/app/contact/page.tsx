@@ -6,7 +6,7 @@ import { ContactPage } from "@/components/ContactPage"
 
 
 export const metadata: Metadata = {
-  title: '',
+  title: 'Desafio plin - contato',
   description: ''
 }
 
