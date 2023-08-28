@@ -1,7 +1,16 @@
-"use client"
+'use client'
 
-interface ContactPageProps {}
-export function ContactPage(props: ContactPageProps) {
+import {
+  Envelope,
+  FacebookLogo,
+  InstagramLogo,
+  LinkedinLogo,
+  MapPin,
+  Phone,
+  TwitterLogo
+} from 'phosphor-react'
+
+export function ContactPage() {
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault()
     const formData = new FormData(event.target as HTMLFormElement)
@@ -28,23 +37,31 @@ export function ContactPage(props: ContactPageProps) {
           </div>
           <div className="flex flex-col space-y-6">
             <div className="inline-flex space-x-2 items-center">
-              icone
+              <Phone />
               <span>92 98444-6528</span>
             </div>
             <div className="inline-flex space-x-2 items-center">
-              icone
+              <Envelope />
               <span>julius.caezar25@gmail.com</span>
             </div>
             <div className="inline-flex space-x-2 items-center">
-              icone
-              <span>endereço</span>
+              <MapPin />
+              <span>Rua das Flores, 123</span>
             </div>
           </div>
           <div className="flex space-x-4 text-lg">
-            <a href="">facebook</a>
-            <a href="">instagram</a>
-            <a href="">linkedin</a>
-            <a href="">twitter</a>
+            <a href="">
+              <FacebookLogo />
+            </a>
+            <a href="">
+              <InstagramLogo />
+            </a>
+            <a href="">
+              <LinkedinLogo />
+            </a>
+            <a href="">
+              <TwitterLogo />
+            </a>
           </div>
         </div>
         <div>
