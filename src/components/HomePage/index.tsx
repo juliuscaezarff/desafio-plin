@@ -36,7 +36,7 @@ export function HomePage() {
         params: {
           lat: lat,
           lon: long,
-          appid: process.env.NEXT_PUBLIC_OPEN_WEATHER_KEY,
+          appid: 'e9337583b510160a32cf3c4a418cf5de',
           lang: 'pt',
           units: 'metric'
         }
