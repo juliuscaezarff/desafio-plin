@@ -6,7 +6,7 @@ import { HomePage } from "@/components/HomePage"
 
 
 export const metadata: Metadata = {
-  title: '',
+  title: 'Desafio plin - tempo agora',
   description: ''
 }
 
