@@ -6,7 +6,7 @@ import { FormPage } from "@/components/FormPage"
 
 
 export const metadata: Metadata = {
-  title: '',
+  title: 'Desafio plin - buscador de cep',
   description: ''
 }
 
