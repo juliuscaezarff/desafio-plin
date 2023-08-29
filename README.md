@@ -14,7 +14,7 @@ Neste projeto, desenvolvi três rotas distintas:
 
 2. **Busca por CEP:** Criei um formulário que permite ao usuário preencher o campo do CEP. Os demais campos são automaticamente preenchidos com o endereço correspondente ao CEP inserido.
 
-3. **Página de Contato:** Essa página também apresenta um formulário. Após o preenchimento e envio do formulário, os dados são registrados no console. O formulário possui apenas quatro campos, incluindo a opção de envio de arquivos.
+3. **Página de Contato:** Essa página também apresenta um formulário. Após o preenchimento e envio do formulário, os dados são registrados no console. O formulário possui apenas quatro campos, incluindo a opção de envio de arquivos(somente PDF).
 
 ---
 
