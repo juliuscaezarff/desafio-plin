@@ -31,7 +31,7 @@ export function HomePage() {
 
   const getWeather = async ({ lat, long }: HomePageProps) => {
     const res = await axios.get(
-      'http://api.openweathermap.org/data/2.5/weather',
+      'https://api.openweathermap.org/data/2.5/weather',
       {
         params: {
           lat: lat,
