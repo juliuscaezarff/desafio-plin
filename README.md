@@ -21,3 +21,17 @@ Neste projeto, desenvolvi três rotas distintas:
 ### Visão para os Próximos 5 Anos
 
 Daqui a cinco anos, me vejo consolidado na área, tendo concluído meu curso de Engenharia de Software. Desejo estar em posição de auxiliar iniciantes que almejam ingressar nesse campo. Além disso, pretendo estar em uma fase mais madura da vida, com um foco maior na minha família e responsabilidades pessoais.
+
+---
+### Techs
+1. Nextjs
+2. typescript
+3. tailwindcss
+4. react-hook-form
+5. zod
+6. axios
+
+---
+## api's utilizadas
+1. open weather map
+2. viacep
