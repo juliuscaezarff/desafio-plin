@@ -13,7 +13,7 @@ const WeatherDetails: React.FC<WeatherDetailsProps> = ({ weather }) => {
       </div>
       <div>
         <h2 className="font-semibold">{weather.main.humidity}%</h2>
-        <p>Humidade</p>
+        <p>Umidade</p>
       </div>
       <div>
         <h2 className="font-semibold">{weather.main.pressure} hpa</h2>

@@ -27,7 +27,7 @@ export function FormPage() {
             className="flex flex-col w-[360px] h-[550px] items-center gap-4 "
           >
             <div>
-              <h1 className='text-3xl font-semibold text-violet-600'>Preecnhe seu CEP</h1>
+              <h1 className='text-3xl font-semibold text-violet-600'>Preencha seu CEP</h1>
             </div>
 
             <div>
